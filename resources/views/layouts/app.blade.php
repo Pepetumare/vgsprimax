@@ -6,20 +6,21 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    {{-- 2. Título optimizado para SEO (muy importante) --}}
-    <title>Constructora VGS Primax | Diseño y Construcción de Casas en Chile</title>
+    {{-- 1. Título optimizado y localizado --}}
+    <title>Constructora en Valdivia | VGS Primax | Construcción de Casas en la Región de los Ríos</title>
 
-    {{-- 3. Descripción para resultados de búsqueda (clave para clics) --}}
+    {{-- 2. Descripción localizada y enfocada en el cliente --}}
     <meta name="description"
-        content="En VGS Primax nos especializamos en el diseño y construcción de casas a medida en todo Chile. Conoce nuestros modelos y cotiza el proyecto de tus sueños con nosotros.">
+        content="VGS Primax, tu constructora de confianza en Valdivia. Expertos en diseño y construcción de casas y proyectos de arquitectura en toda la Región de los Ríos. Calidad y servicio excepcional. ¡Conversemos sobre tu proyecto!">
 
-    {{-- 4. Palabras clave (baja prioridad para Google, pero no daña) --}}
+    {{-- 3. Palabras clave consistentes con el enfoque local --}}
     <meta name="keywords"
-        content="constructora en chile, construcción de casas, modelos de casas, proyectos inmobiliarios, vgs primax, construcción personalizada">
+        content="constructora valdivia, construcción de casas los ríos, remodelaciones valdivia, vgs primax, arquitectos valdivia, proyectos inmobiliarios los ríos, construcción personalizada">
 
-    {{-- 5. Canonical URL (evita contenido duplicado) - ¡DEBES CAMBIAR ESTA URL! --}}
+    {{-- 4. Canonical URL (evita contenido duplicado) - ¡Correcto! --}}
     <link rel="canonical" href="https://www.vgsprimax.cl/">
 
+    {{-- Favicons y manifiesto (¡Bien implementado!) --}}
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/img/icons/apple-touch-icon.png') }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/img/icons/favicon.ico') }}">
     <link rel="manifest" href="{{ asset('assets/img/icons/site.webmanifest') }}">
@@ -27,23 +28,24 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
 
-    <meta property="og:title" content="Constructora VGS Primax | Casas a Medida en Chile">
+    {{-- 5. Open Graph (para Facebook/WhatsApp) optimizado y localizado --}}
+    <meta property="og:title" content="Constructora VGS Primax | Casas a Medida en Valdivia y la Región de los Ríos">
     <meta property="og:description"
-        content="Diseñamos y construimos la casa de tus sueños. Conoce nuestros modelos y la calidad que nos caracteriza.">
+        content="Diseñamos y construimos la casa de tus sueños en la Región de los Ríos. Conoce nuestros proyectos y la calidad que nos caracteriza.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.vgsprimax.cl/">
-    {{-- ¡DEBES CREAR Y SUBIR ESTA IMAGEN! (Tamaño recomendado: 1200x630 píxeles) --}}
-    <meta property="og:image" content="{{ asset('assets/img/icons/apple-touch-icon.png') }}">
+    <meta property="og:image" content="{{ asset('assets/img/vgs-primax-og-image.jpg') }}"> {{-- ¡OJO! Recomiendo crear una imagen específica (1200x630px) y cambiarle el nombre --}}
     <meta property="og:site_name" content="VGS Primax Constructora">
     <meta property="og:locale" content="es_CL">
 
+    {{-- 6. Twitter Card (para Twitter/X) optimizado y localizado --}}
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Constructora VGS Primax | Casas a Medida en Chile">
+    <meta name="twitter:title" content="Constructora VGS Primax | Casas a Medida en Valdivia y la Región de los Ríos">
     <meta name="twitter:description"
-        content="Diseñamos y construimos la casa de tus sueños. Conoce nuestros modelos y la calidad que nos caracteriza.">
-    {{-- ¡DEBES CREAR Y SUBIR ESTA IMAGEN! (La misma que en Open Graph) --}}
-    <meta name="twitter:image" content="{{ asset('assets/img/icons/apple-touch-icon.png') }}">
+        content="Diseñamos y construimos la casa de tus sueños en la Región de los Ríos. Conoce nuestros proyectos y la calidad que nos caracteriza.">
+    <meta name="twitter:image" content="{{ asset('assets/img/vgs-primax-og-image.jpg') }}"> {{-- Usa la misma imagen que en Open Graph --}}
 
+    {{-- Fonts y CSS (Sin cambios) --}}
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
     <link
@@ -58,8 +60,6 @@
     <link href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
 
     <link href="{{ asset('assets/css/main.css') }}" rel="stylesheet">
-
-
 </head>
 
 <body class="index-page">
@@ -89,7 +89,7 @@
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
     @include('layouts.partials.footer')
-    <a href="https://wa.me/56989335919?text=Hola,%20quisiera%20más%20información%20sobre%20sus%20servicios."
+    <a href="https://wa.me/56989335919?text=Hola%20VGS%20Primax,%20visité%20su%20sitio%20web%20y%20quisiera%20más%20información%20sobre%20sus%20servicios%20de%20construcción."
         class="whatsapp-flotante" target="_blank">
         <i class="fa-brands fa-whatsapp"></i>
     </a>

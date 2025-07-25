@@ -9,12 +9,18 @@
         <div class="info d-flex align-items-center">
             <div class="container">
                 <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
-                    <div class="col-lg-7 text-center">
-                        <h2 class="display-4">Construimos Proyectos, Creamos Futuro</h2>
-                        <p class="lead">En VGS Primax transformamos tus ideas en realidad. Nos especializamos en proyectos
-                            de construcción a medida, garantizando calidad, durabilidad y soluciones eficientes para cada
-                            cliente.</p>
-                        <a href="#get-started" class="btn-get-started">Solicitar Cotización</a>
+                    <div class="col-lg-8 text-center">
+                        {{-- 1. CAMBIO CRÍTICO: Usamos H1 y palabras clave locales --}}
+                        <h1 class="display-4">Tu Casa en la Región de los Ríos: Constructora VGS Primax</h1>
+
+                        {{-- 2. Párrafo optimizado que refuerza la localización y especialidad --}}
+                        <p class="lead">Nos especializamos en el diseño y construcción de casas a medida en
+                            <strong>Valdivia y toda la Región de los Ríos.</strong> Calidad, eficiencia y la confianza que
+                            necesitas para construir el hogar de tus sueños.</p>
+
+                        {{-- 3. Doble llamada a la acción: una directa y una para explorar --}}
+                        <a href="#get-started" class="btn-get-started">Cotiza tu Proyecto</a>
+                        <a href="{{route('proyectos')}}" class="btn-get-started ms-2">Ver Proyectos</a>
                     </div>
                 </div>
             </div>
