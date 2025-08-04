@@ -3,7 +3,7 @@
 @section('content')
     <main class="main">
 
-       <!-- Page Title -->
+        <!-- Page Title -->
         <div class="page-title dark-background" style="background-image: url(assets/img/page-title-bg.jpg);">
             <div class="container position-relative">
                 <h1>Proyectos</h1>
@@ -213,6 +213,20 @@
                                     <p>Galpón ubicado en Lanco</p>
                                     <a href="assets/img/projects/galpon-lanco-1.jpg" title="Galón con ubicación Lanco"
                                         data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
+                                            class="bi bi-zoom-in"></i></a>
+                                    <a href="project-details.html" title="More Details" class="details-link"><i
+                                            class="bi bi-link-45deg"></i></a>
+                                </div>
+                            </div>
+                        </div><!-- End Portfolio Item -->
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-repairs">
+                            <div class="portfolio-content h-100">
+                                <img src="assets/img/projects/casa-linguento-3.jpg" class="img-fluid" alt="">
+                                <div class="portfolio-info">
+                                    <h4>Casa Linguento</h4>
+                                    <p>Casa con ubicación en linguento</p>
+                                    <a href="assets/img/projects/casa-linguento-3.jpg" title="Casa Valdivia"
+                                        data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i
                                             class="bi bi-zoom-in"></i></a>
                                     <a href="project-details.html" title="More Details" class="details-link"><i
                                             class="bi bi-link-45deg"></i></a>

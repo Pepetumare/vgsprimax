@@ -7,7 +7,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
     {{-- 1. Título optimizado y localizado --}}
-    <title>Constructora en Valdivia | VGS Primax | Construcción de Casas en la Región de los Ríos</title>
+    <title>Constructora en San José de la Mariquina | VGS Primax | Construcción de Casas en la Región de los Ríos</title>
 
     {{-- 2. Descripción localizada y enfocada en el cliente --}}
     <meta name="description"
