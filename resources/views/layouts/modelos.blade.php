@@ -3,7 +3,8 @@
 @section('content')
     <main class="main">
         <!-- Page Title -->
-        <div class="page-title dark-background" style="background-image: url(assets/img/page-title-bg.jpg);">
+        <div class="page-title dark-background"
+            style="background-image: url('{{ asset('assets/img/page-title-bg.jpg') }}');">
             <div class="container position-relative">
                 <h1>Nuestros Modelos</h1>
                 <nav class="breadcrumbs">
@@ -139,10 +140,9 @@
                         </button>
                     </div>
                     <div class="col-md-6 p-0">
-                        <div class="col-md-6 p-0">
-                            <img src="{{ asset('assets/img/modelos/coigue/modelo-coigue.png') }}" alt="Casa Modelo Coigüe">
-                        </div>
+                        <img src="{{ asset('assets/img/modelos/coigue/modelo-coigue.png') }}" alt="Casa Modelo Coigüe">
                     </div>
+                </div>
             </section>
 
         </div>

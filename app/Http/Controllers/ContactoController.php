@@ -41,7 +41,12 @@ class ContactoController extends Controller
         }
 
         // 3. Enviar el correo electrónico, pasando los datos y la ruta del adjunto
-        Mail::to('contacto@vgsprimax.cl')->send(new FormularioContactoMail($data, $attachmentPath));
+        $recipient = config('mail.contact_form_to');
+        if (empty($recipient)) {
+            $recipient = config('mail.from.address');
+        }
+
+        Mail::to($recipient)->send(new FormularioContactoMail($data, $attachmentPath));
 
         // 4. Devolver una respuesta exitosa para el script del formulario
         return response('OK', 200);

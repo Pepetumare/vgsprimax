@@ -4,7 +4,7 @@
     <main class="main">
 
         <!-- Page Title -->
-        <div class="page-title dark-background" style="background-image: url(assets/img/page-title-bg.jpg);">
+        <div class="page-title dark-background" style="background-image: url('{{ asset('assets/img/page-title-bg.jpg') }}');">
             <div class="container position-relative">
                 <h1>Sobre nosotros</h1>
                 <nav class="breadcrumbs">
@@ -24,7 +24,7 @@
                 <div class="row position-relative">
 
                     <div class="col-lg-7 about-img" data-aos="zoom-out" data-aos-delay="200"><img
-                            src="assets/img/about.png"></div>
+                            src="{{ asset('assets/img/about.png') }}"></div>
 
                     <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
                         <h2 class="inner-title">Conocenos</h2>
@@ -132,7 +132,7 @@
                 <div class="row justify-content-around gy-4">
 
                     <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                        <img src="assets/img/alt-services.jpg" alt="Equipo de construcción revisando planos">
+                        <img src="{{ asset('assets/img/alt-services.jpg') }}" alt="Equipo de construcción revisando planos">
                     </div>
 
                     <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
@@ -234,7 +234,7 @@
                     </div>
 
                     <div class="features-image col-lg-5 order-1 order-lg-2" data-aos="fade-up" data-aos-delay="200">
-                        <img src="assets/img/features-3-2.jpg"
+                        <img src="{{ asset('assets/img/features-3-2.jpg') }}"
                             alt="Ingenieros supervisando una obra">
                     </div>
 
